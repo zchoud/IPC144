@@ -1,0 +1,76 @@
+Initlize a structure array of size 2 in the format of DrivingRecord named guzzlers with the values specified
+
+intilize two more stuctures in DrivingRecord format named top and bottom
+
+initilize variable avg as a double
+
+Call function getAverage with the parameters of adress of guzzlers, 2, address of top and address of bottom
+
+Initilize the following variables as integers i, j, worstPos = -1, bestPost = -1
+
+initlize the following variables as doubles dist, fillDist, economy, totalEconomy = 0.0, worstEconomy = -1, bestEconomy = 9999
+
+Start loop i is started at 0, check condition i is less then nrecs true enter loop
+
+dist and economy set to 0
+
+start new loop, j is 0, check j is less than the numFills in the 0 index which is 2 of recs, true
+
+FillDist is set to equal the endOdometer of rec[i].fillup[j] minus the start of the same which is 588
+
+Economy is set to add to the current number of rec[j].fillup[j] of the fuel used devided by the fillDist and changed to a percentage equal to 12.26
+
+add current dist to fillDist is now 588
+
+add 1 to j, j is now 1, is j less than num fills at 0 index, true
+
+Same math as step 10 with i=0, j=1, fillDist is now 331
+
+Same math as step 11 with i=0, j=1, Economy is now 32.9
+
+same math as step 12, fillDist is now 919
+
+1 is added to j, j is now 2, check is j less than num fills at 0 index, false
+
+exit j loop
+
+economy is devided by rec0.numFills which is 2, is now 16.78
+
+Economy is greater than best economy true
+
+set best econmy to the current economy of index 0 and position to 0 (bestPos)
+
+Economy is greater than worst economy true
+set worst econmy to the current economy of index 0 and position to 0 (worstPos)
+add the economy to total economy, is now 16.48
+
+add 1 to i, i is now 1, is i less than nrecs, true
+
+dist and economy set to 0
+start new loop, j is 0, check j is less than the numFills in the 1 index which is 1 of recs, true
+FillDist is set to equal the endOdometer of rec[i].fillup[j] minus the start of the same which is 532
+Economy is set to add to the current number of rec[j].fillup[j] of the fuel used devided by the fillDist and changed to a percentage equal to 15.56
+add current dist to fillDist is now 532
+
+add 1 to j, j is now 1, is j less than num fills at 1 index, false
+
+exit j loop
+economy is devided by rec1.numFills which is 1 is still 15.56
+
+Economy is greater than best economy, true
+set best econmy to the current economy of index 1 and position to 1 (bestPos)
+Economy is greater than worst economy false
+
+add the economy to total economy is now 32.04
+
+add 1 to i i is not less than nrecs exit loop
+
+recs[1] is saved in best, which is top
+
+recs[0] is saved in worst, which is bottom
+
+return total economy/nrecs to avg which is 16.02
+
+print "Fleet average is 16.02 l/100km with the best being Cadillac Escalade and the worst being Ford F150"
+
+return 0 and control to os

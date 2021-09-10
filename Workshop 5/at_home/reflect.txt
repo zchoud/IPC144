@@ -1,0 +1,8 @@
+Workshop 5
+Zian Choudhury - 131048209 - Section NVV
+
+This workshop introduced the use of structures that is a group of variables with different types under a single identifier. An array of structure was also used to contain the different employees. This concept is alike to parallel arrays shown in workshop 4. However, unlike parallel arrays the structure allows for a single identifier rather than multiple as well as the use of different types of data. In the case of the workshop the employee structure array was initialized to the size required and stored in each index per employee. In the case of a parallel array this would have required multiple arrays for id, age, and salary due to the different types.
+ 
+When declaring the structure, it was originally placed in the main source code above the main function. The alternative location this could have been declared is as a header file. This method helps sort the code. While for this workshop there is only 1 structure. When the number of structures and functions start to increase the number of lines does too. This would make the code longer so by partitioning the code into sections this would organize the code. 
+
+When writing the code one check that I would have liked to include was if there were duplicate entries. However, I ran into issues with it causing errors when checking for an error of an incorrect entry. The way I had done it is had a “check” integer that would initially be set to 0. During an add of employee the number entered for ID would be checked with all the other numbers. If there was a match the check would be flagged. The issue I ran into is when both a duplicate and an error in entry (like negative age) occurred. 

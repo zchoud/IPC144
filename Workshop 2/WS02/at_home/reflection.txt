@@ -1,0 +1,7 @@
+IPC144 -Assignment 1
+
+This workshop introduced the different data types such as integers and doubles. The several limitations and use cases are considered. When working with the numbers, in a division operation there is a chance that when going between double and int, rounding errors occurring. It is important as when going back to a whole number it can be smaller or larger than the desired value. 
+
+In addition, the user input function “scanf” as well as its structure. When using both the “scanf” function as well as including variables in “printf”, placeholders are introduced for the different types such as for integers %d. When printing the values formatting such as “%.2lf” to print a number to two decimal places or “%0.lf” to print a whole number. 
+
+Finally, when working with the equations one major factor as discussed is the rounding. Initially when completing the final count for loonies rounding errors were occurring where there was a remaining value depending on the value entered. The first attempt I used the chopping that happens when using storing an int into a double however this proved to cause issues with rounding. In order to correct I used type casting to force a type storing the numbers as doubles. Each of the calculations were type casted to an integer and to ensure proper output when printing %0.lf was used. While modulus was not used due to issues in visual studio, this reduces the extra calculations needed and the chance of rounding errors. 

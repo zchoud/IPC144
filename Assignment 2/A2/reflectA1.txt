@@ -1,0 +1,10 @@
+Name:           Zian Choudhury
+Student Number: 131048209
+Email:          zchoudhury@myseneca.ca
+Section:        NVV
+Date:           11/20/2020
+
+In this milestone the input and by extension input buffer was introduced on how it works. In the previous assignment the use of “%c%c*c” was used for single character input. This concept was extended to when there is overflow. If further characters are inputted into by the user normally with structures, it can overflow into the next elements of the structure. With the input buffer clear this can be prevented by ensuring “\n” is present for the structure element being worked with. 
+Additionally, specific data that is required for input it is important that the data is valid. Functions were used in the testing of valid data in this part of the assignment as well as importance of the use of functions. A function is a block of code that can be called upon by the main or other functions do complete a specific task. This allows for better organization of repeating tasks withing the code making the overall program code easier to read and debug. 
+In this assignment the “helper” functions were created to complete side tasks that are not necessarily done to produce the answer but rather a means of. As an example, one helper function is the “yes” function that gets a yes or no from the user. Alone it is not related to the main problem of managing contacts but is tool used for obtaining a yes or no from the user. This applies to several other functions such as getInt for obtaining an integer that is similar in that it is a general tool. 
+These separate functions were not added to the contacts.c file as mentioned, unlike the contacts.c which is directly associated with the contacts the helpers are tools that for organization makes it easier to have in a separate file. This allows not only the organization but also isolation of the helper functions for testing. This is done so that when producing the codes, when debugging the helpers, the contacts do not add further complexion, isolating the helper function errors for ease of correction. 

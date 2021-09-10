@@ -1,0 +1,3 @@
+﻿  cashRegister.c
+D:\Documents\School\Seneca\IPC144 - Introduction to C\Workshop 2\WS02\in_lab\cashRegister.c(30,16): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  in_lab.vcxproj -> D:\Documents\School\Seneca\IPC144 - Introduction to C\Workshop 2\WS02\in_lab\Debug\in_lab.exe

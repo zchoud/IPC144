@@ -1,0 +1,4 @@
+D:\Documents\School\Seneca\IPC144 - Introduction to C\Workshop 2\WS02\in_lab\Debug\in_lab.exe
+D:\Documents\School\Seneca\IPC144 - Introduction to C\Workshop 2\WS02\in_lab\Debug\in_lab.pdb
+D:\Documents\School\Seneca\IPC144 - Introduction to C\Workshop 3\WS03\in_lab\Debug\in_lab.exe
+D:\Documents\School\Seneca\IPC144 - Introduction to C\Workshop 3\WS03\in_lab\Debug\in_lab.pdb

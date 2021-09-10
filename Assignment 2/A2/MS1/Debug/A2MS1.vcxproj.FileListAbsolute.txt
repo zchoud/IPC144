@@ -1,0 +1,2 @@
+D:\Documents\School\Seneca\IPC144 - Introduction to C\Assignment 2\A2\MS1\Debug\A2MS1.exe
+D:\Documents\School\Seneca\IPC144 - Introduction to C\Assignment 2\A2\MS1\Debug\A2MS1.pdb

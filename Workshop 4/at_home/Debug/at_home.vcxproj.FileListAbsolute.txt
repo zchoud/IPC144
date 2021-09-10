@@ -1,0 +1,4 @@
+C:\Users\Zian\source\repos\at_home\Debug\at_home.exe
+C:\Users\Zian\source\repos\at_home\Debug\at_home.pdb
+D:\Documents\School\Seneca\IPC144 - Introduction to C\Workshop 4\at_home\Debug\at_home.exe
+D:\Documents\School\Seneca\IPC144 - Introduction to C\Workshop 4\at_home\Debug\at_home.pdb
